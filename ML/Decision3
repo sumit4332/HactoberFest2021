@@ -1,0 +1,8 @@
+# import the regressor
+from sklearn.tree import DecisionTreeRegressor
+
+# create a regressor object
+regressor = DecisionTreeRegressor(random_state = 0)
+
+# fit the regressor with X and Y data
+regressor.fit(X, y)
